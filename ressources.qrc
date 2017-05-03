@@ -1,0 +1,6 @@
+<RCC>
+    <qresource lang="Français" prefix="/new/images">
+        <file>icon.png</file>
+        <file>fm.jpg</file>
+    </qresource>
+</RCC>
