@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>918</width>
-    <height>526</height>
+    <width>1069</width>
+    <height>994</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -50,8 +50,8 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>901</width>
-      <height>511</height>
+      <width>1051</width>
+      <height>981</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -164,7 +164,7 @@
       <rect>
        <x>410</x>
        <y>20</y>
-       <width>461</width>
+       <width>531</width>
        <height>261</height>
       </rect>
      </property>
@@ -212,10 +212,10 @@
     <widget class="QGroupBox" name="runesPoids1">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>300</y>
-       <width>161</width>
-       <height>61</height>
+       <x>30</x>
+       <y>290</y>
+       <width>301</width>
+       <height>121</height>
       </rect>
      </property>
      <property name="font">
@@ -232,15 +232,15 @@
 }</string>
      </property>
      <property name="title">
-      <string/>
+      <string>Runes Poids 1</string>
      </property>
      <widget class="QPushButton" name="runesPoids1Button">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
-        <width>161</width>
-        <height>41</height>
+        <y>20</y>
+        <width>301</width>
+        <height>71</height>
        </rect>
       </property>
       <property name="font">
@@ -249,44 +249,51 @@
        </font>
       </property>
       <property name="text">
-       <string>Fo/Ine/Cha/Age/Vi/Ini</string>
+       <string/>
       </property>
      </widget>
      <widget class="QPushButton" name="runesPoids1RaButton">
       <property name="geometry">
        <rect>
-        <x>80</x>
-        <y>40</y>
-        <width>81</width>
-        <height>23</height>
+        <x>150</x>
+        <y>90</y>
+        <width>151</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
-       <string>Ra</string>
+       <string>Ra (10)</string>
       </property>
      </widget>
      <widget class="QPushButton" name="runesPoids1PaButton">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>40</y>
-        <width>81</width>
-        <height>23</height>
+        <y>90</y>
+        <width>151</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
-       <string>Pa</string>
+       <string>Pa (3)</string>
       </property>
      </widget>
     </widget>
     <widget class="QGroupBox" name="runesPoids2">
      <property name="geometry">
       <rect>
-       <x>190</x>
-       <y>300</y>
-       <width>161</width>
-       <height>61</height>
+       <x>380</x>
+       <y>290</y>
+       <width>301</width>
+       <height>121</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">QGroupBox
@@ -295,15 +302,41 @@
 }</string>
      </property>
      <property name="title">
-      <string/>
+      <string>Runes Poids 2</string>
      </property>
+     <widget class="QPushButton" name="runesPoids2PaButton">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>90</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pa (6)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="runesPoids2RaButton">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>90</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ra (20)</string>
+      </property>
+     </widget>
      <widget class="QPushButton" name="runesPoids2Button">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
-        <width>161</width>
-        <height>41</height>
+        <y>20</y>
+        <width>301</width>
+        <height>71</height>
        </rect>
       </property>
       <property name="font">
@@ -312,44 +345,25 @@
        </font>
       </property>
       <property name="text">
-       <string>Pui Re Terre/Feu/Eau/Air/Neutre</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="runesPoids2PaButton">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>40</y>
-        <width>81</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Pa</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="runesPoids2RaButton">
-      <property name="geometry">
-       <rect>
-        <x>80</x>
-        <y>40</y>
-        <width>81</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Ra</string>
+       <string/>
       </property>
      </widget>
     </widget>
     <widget class="QGroupBox" name="runes2Poids5">
      <property name="geometry">
       <rect>
-       <x>370</x>
-       <y>300</y>
-       <width>161</width>
-       <height>61</height>
+       <x>730</x>
+       <y>290</y>
+       <width>301</width>
+       <height>121</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">QGroupBox
@@ -358,41 +372,41 @@
 }</string>
      </property>
      <property name="title">
-      <string/>
+      <string>Runes Poids 2,5</string>
      </property>
      <widget class="QPushButton" name="runes2Poids5PaButton">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>40</y>
-        <width>81</width>
-        <height>21</height>
+        <y>90</y>
+        <width>151</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
-       <string>Pa</string>
+       <string>Pa (7,5)</string>
       </property>
      </widget>
      <widget class="QPushButton" name="runes2Poids5RaButton">
       <property name="geometry">
        <rect>
-        <x>80</x>
-        <y>40</y>
-        <width>81</width>
-        <height>21</height>
+        <x>150</x>
+        <y>90</y>
+        <width>151</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
-       <string>Ra</string>
+       <string>Ra (25)</string>
       </property>
      </widget>
      <widget class="QPushButton" name="runes2Poids5Button">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
-        <width>161</width>
-        <height>41</height>
+        <y>20</y>
+        <width>301</width>
+        <height>71</height>
        </rect>
       </property>
       <property name="font">
@@ -401,81 +415,25 @@
        </font>
       </property>
       <property name="text">
-       <string>Pod</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QGroupBox" name="runesPoids3Sa">
-     <property name="geometry">
-      <rect>
-       <x>550</x>
-       <y>300</y>
-       <width>161</width>
-       <height>61</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">QGroupBox
-{
-    border: 2px solid gray;
-}</string>
-     </property>
-     <property name="title">
-      <string/>
-     </property>
-     <widget class="QPushButton" name="runesPoids3SaPaButton">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>40</y>
-        <width>81</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Pa</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="runesPoids3SaRaButton">
-      <property name="geometry">
-       <rect>
-        <x>80</x>
-        <y>40</y>
-        <width>81</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Ra</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="runesPoids3SaButton">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>161</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>7</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Sa</string>
+       <string/>
       </property>
      </widget>
     </widget>
     <widget class="QGroupBox" name="rune3Prospe">
      <property name="geometry">
       <rect>
-       <x>730</x>
-       <y>300</y>
-       <width>161</width>
-       <height>61</height>
+       <x>380</x>
+       <y>430</y>
+       <width>301</width>
+       <height>121</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">QGroupBox
@@ -484,43 +442,50 @@
 }</string>
      </property>
      <property name="title">
-      <string/>
+      <string>Runes Poids 3</string>
      </property>
      <widget class="QPushButton" name="rune3ProspeButton">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
-        <width>161</width>
-        <height>41</height>
+        <y>20</y>
+        <width>301</width>
+        <height>71</height>
        </rect>
       </property>
       <property name="text">
-       <string>Prospe</string>
+       <string/>
       </property>
      </widget>
      <widget class="QPushButton" name="rune3ProspePaButton">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>40</y>
-        <width>161</width>
-        <height>21</height>
+        <y>90</y>
+        <width>301</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
-       <string>Pa</string>
+       <string>Pa (9)</string>
       </property>
      </widget>
     </widget>
     <widget class="QGroupBox" name="runesPoids4">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>370</y>
-       <width>161</width>
-       <height>61</height>
+       <x>730</x>
+       <y>430</y>
+       <width>301</width>
+       <height>121</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">QGroupBox
@@ -529,28 +494,28 @@
 }</string>
      </property>
      <property name="title">
-      <string/>
+      <string>Runes Poids 4</string>
      </property>
      <widget class="QPushButton" name="runesPoids4PaButton">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>40</y>
-        <width>161</width>
-        <height>21</height>
+        <y>90</y>
+        <width>301</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
-       <string>Pa</string>
+       <string>Pa (12)</string>
       </property>
      </widget>
      <widget class="QPushButton" name="runesPoids4Button">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
-        <width>161</width>
-        <height>41</height>
+        <y>20</y>
+        <width>301</width>
+        <height>71</height>
        </rect>
       </property>
       <property name="font">
@@ -559,70 +524,25 @@
        </font>
       </property>
       <property name="text">
-       <string>Tacle/Fuite</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QGroupBox" name="runesPoids5">
-     <property name="geometry">
-      <rect>
-       <x>190</x>
-       <y>370</y>
-       <width>161</width>
-       <height>61</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">QGroupBox
-{
-    border: 2px solid gray;
-}</string>
-     </property>
-     <property name="title">
-      <string/>
-     </property>
-     <widget class="QPushButton" name="runesPoids5PaButton">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>40</y>
-        <width>161</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Pa</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="runesPoids5Button">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>161</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>7</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Re Pou/Cri/Do Terre
-/Neutre/Feu/Air/Eau/Pou
-/Cri/Pi</string>
+       <string/>
       </property>
      </widget>
     </widget>
     <widget class="QGroupBox" name="runesPoids6">
      <property name="geometry">
       <rect>
-       <x>370</x>
-       <y>370</y>
-       <width>161</width>
-       <height>61</height>
+       <x>380</x>
+       <y>570</y>
+       <width>301</width>
+       <height>121</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">QGroupBox
@@ -631,15 +551,15 @@
 }</string>
      </property>
      <property name="title">
-      <string/>
+      <string>Runes Poids 6</string>
      </property>
      <widget class="QPushButton" name="runesPoids6Button">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
-        <width>161</width>
-        <height>61</height>
+        <y>20</y>
+        <width>301</width>
+        <height>101</height>
        </rect>
       </property>
       <property name="font">
@@ -648,19 +568,25 @@
        </font>
       </property>
       <property name="text">
-       <string>Re Per Air/Terre/Feu
-Eau/Neutre</string>
+       <string/>
       </property>
      </widget>
     </widget>
     <widget class="QGroupBox" name="runesPoids7">
      <property name="geometry">
       <rect>
-       <x>550</x>
-       <y>370</y>
-       <width>161</width>
-       <height>61</height>
+       <x>730</x>
+       <y>570</y>
+       <width>301</width>
+       <height>121</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">QGroupBox
@@ -669,28 +595,28 @@ Eau/Neutre</string>
 }</string>
      </property>
      <property name="title">
-      <string/>
+      <string>Runes Poids 7</string>
      </property>
      <widget class="QPushButton" name="runesPoids7PaButton">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>40</y>
-        <width>161</width>
-        <height>21</height>
+        <y>90</y>
+        <width>301</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
-       <string>Pa</string>
+       <string>Pa (21)</string>
       </property>
      </widget>
      <widget class="QPushButton" name="runesPoids7Button">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
-        <width>161</width>
-        <height>41</height>
+        <y>20</y>
+        <width>301</width>
+        <height>71</height>
        </rect>
       </property>
       <property name="font">
@@ -699,56 +625,25 @@ Eau/Neutre</string>
        </font>
       </property>
       <property name="text">
-       <string>Re Pa/Re Pm
-Ret Pa/Ret Pm</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QGroupBox" name="runesPoids10">
-     <property name="geometry">
-      <rect>
-       <x>730</x>
-       <y>370</y>
-       <width>161</width>
-       <height>61</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">QGroupBox
-{
-    border: 2px solid gray;
-}</string>
-     </property>
-     <property name="title">
-      <string/>
-     </property>
-     <widget class="QPushButton" name="runesPoids10Button">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>161</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>7</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>So/Cri/Do Ren</string>
+       <string/>
       </property>
      </widget>
     </widget>
     <widget class="QGroupBox" name="runesPoids20">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>440</y>
-       <width>161</width>
-       <height>61</height>
+       <x>380</x>
+       <y>710</y>
+       <width>301</width>
+       <height>121</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">QGroupBox
@@ -757,15 +652,15 @@ Ret Pa/Ret Pm</string>
 }</string>
      </property>
      <property name="title">
-      <string/>
+      <string>Runes Poids 20</string>
      </property>
      <widget class="QPushButton" name="runesPoids20Button">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
-        <width>161</width>
-        <height>61</height>
+        <y>20</y>
+        <width>301</width>
+        <height>101</height>
        </rect>
       </property>
       <property name="font">
@@ -774,17 +669,17 @@ Ret Pa/Ret Pm</string>
        </font>
       </property>
       <property name="text">
-       <string>Do</string>
+       <string/>
       </property>
      </widget>
     </widget>
     <widget class="QGroupBox" name="runesPoids30">
      <property name="geometry">
       <rect>
-       <x>190</x>
-       <y>440</y>
-       <width>161</width>
-       <height>61</height>
+       <x>730</x>
+       <y>710</y>
+       <width>301</width>
+       <height>121</height>
       </rect>
      </property>
      <property name="font">
@@ -801,15 +696,15 @@ Ret Pa/Ret Pm</string>
 }</string>
      </property>
      <property name="title">
-      <string/>
+      <string>Runes Poids 30</string>
      </property>
      <widget class="QPushButton" name="runesPoids30Button">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
-        <width>161</width>
-        <height>61</height>
+        <y>20</y>
+        <width>301</width>
+        <height>101</height>
        </rect>
       </property>
       <property name="font">
@@ -818,61 +713,17 @@ Ret Pa/Ret Pm</string>
        </font>
       </property>
       <property name="text">
-       <string>Invo</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QGroupBox" name="runesPoids51">
-     <property name="geometry">
-      <rect>
-       <x>370</x>
-       <y>440</y>
-       <width>161</width>
-       <height>61</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">QGroupBox
-{
-    border: 2px solid gray;
-}</string>
-     </property>
-     <property name="title">
-      <string/>
-     </property>
-     <widget class="QPushButton" name="runesPoids51Button">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>161</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>7</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Po</string>
+       <string/>
       </property>
      </widget>
     </widget>
     <widget class="QGroupBox" name="runesPoids90">
      <property name="geometry">
       <rect>
-       <x>550</x>
-       <y>440</y>
-       <width>161</width>
-       <height>61</height>
+       <x>380</x>
+       <y>850</y>
+       <width>301</width>
+       <height>121</height>
       </rect>
      </property>
      <property name="font">
@@ -889,15 +740,15 @@ Ret Pa/Ret Pm</string>
 }</string>
      </property>
      <property name="title">
-      <string/>
+      <string>Runes Poids 90</string>
      </property>
      <widget class="QPushButton" name="runesPoids90Button">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
-        <width>161</width>
-        <height>61</height>
+        <y>20</y>
+        <width>301</width>
+        <height>101</height>
        </rect>
       </property>
       <property name="font">
@@ -906,7 +757,7 @@ Ret Pa/Ret Pm</string>
        </font>
       </property>
       <property name="text">
-       <string>GaPM</string>
+       <string/>
       </property>
      </widget>
     </widget>
@@ -914,9 +765,9 @@ Ret Pa/Ret Pm</string>
      <property name="geometry">
       <rect>
        <x>730</x>
-       <y>440</y>
-       <width>161</width>
-       <height>61</height>
+       <y>850</y>
+       <width>301</width>
+       <height>121</height>
       </rect>
      </property>
      <property name="font">
@@ -933,15 +784,15 @@ Ret Pa/Ret Pm</string>
 }</string>
      </property>
      <property name="title">
-      <string/>
+      <string>Runes Poids 100</string>
      </property>
      <widget class="QPushButton" name="runesPoids100Button">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
-        <width>161</width>
-        <height>61</height>
+        <y>20</y>
+        <width>301</width>
+        <height>101</height>
        </rect>
       </property>
       <property name="font">
@@ -950,7 +801,222 @@ Ret Pa/Ret Pm</string>
        </font>
       </property>
       <property name="text">
-       <string>GaPA</string>
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="runesPoids3Sa">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>430</y>
+       <width>301</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox
+{
+    border: 2px solid gray;
+}</string>
+     </property>
+     <property name="title">
+      <string>Runes Poids 3</string>
+     </property>
+     <widget class="QPushButton" name="runesPoids3SaPaButton">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>90</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pa (9)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="runesPoids3SaButton">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>301</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="runesPoids3SaRaButton">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>90</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ra (30)</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="runesPoids5">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>570</y>
+       <width>301</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox
+{
+    border: 2px solid gray;
+}</string>
+     </property>
+     <property name="title">
+      <string>Runes Poids 5</string>
+     </property>
+     <widget class="QPushButton" name="runesPoids5PaButton">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>90</y>
+        <width>301</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pa (15)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="runesPoids5Button">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>301</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="runesPoids10">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>710</y>
+       <width>301</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox
+{
+    border: 2px solid gray;
+}</string>
+     </property>
+     <property name="title">
+      <string>Runes Poids 10</string>
+     </property>
+     <widget class="QPushButton" name="runesPoids10Button">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>301</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="runesPoids51">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>850</y>
+       <width>301</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox
+{
+    border: 2px solid gray;
+}</string>
+     </property>
+     <property name="title">
+      <string>Runes Poids 51</string>
+     </property>
+     <widget class="QPushButton" name="runesPoids51Button">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>301</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </widget>

@@ -1,6 +1,21 @@
 <RCC>
     <qresource lang="Français" prefix="/new/images">
-        <file>icon.png</file>
         <file>fm.jpg</file>
+        <file>runes1.png</file>
+        <file>runes2.png</file>
+        <file>runes2,5.png</file>
+        <file>icon.png</file>
+        <file>runes3Sa.png</file>
+        <file>runes3Prospe.png</file>
+        <file>runes4.png</file>
+        <file>runes5.png</file>
+        <file>runes6.png</file>
+        <file>runes7.png</file>
+        <file>runes10.png</file>
+        <file>runes20.png</file>
+        <file>runes30.png</file>
+        <file>runes51.png</file>
+        <file>runes90.png</file>
+        <file>runes100.png</file>
     </qresource>
 </RCC>
